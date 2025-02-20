@@ -27,6 +27,11 @@ url: "http://mbobby22.github.io" # the base hostname & protocol for your site, e
 twitter_username: bobbym77067778
 github_username:  mbobby22
 google_analytics: G-Z4RMG7GXH7
+# instagram_username: bogdan_insta1
+donations:
+  paypal:
+    text: Donate  # Button alt text
+    id: W62FGQUQV9MJS  # PayPal button ID
 
 # Build settings
 theme: minima
