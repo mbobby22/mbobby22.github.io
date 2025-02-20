@@ -12,7 +12,7 @@ Since 2022, I've expanded my expertise to include `Kotlin` and `Golang`, and I o
 
 ![Image]({{"/php-img-about.png", | relative_url }})
 
-Feel free to reach out via the [email][coding-blog-email] in the footer for questions, **quotes**, or just to **share** your thoughts.
+Feel free to reach out via [email][coding-blog-email] for questions, **quotes**, or just to **share** your thoughts.
 
 Happy coding!
 
