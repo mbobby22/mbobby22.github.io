@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am Bogdan. Welcome to my [coding blog][coding-blog-link].
+Welcome to my [coding blog][coding-blog-link]! I'm Bogdan, and I'm excited to share insights and solutions from my **15 years** of **Software Engineering**, primarily focused on `PHP`. 
 
-I will share with you the solutions to some of the issues I have been facing in the last **15 years** of working as a **Software Engineer** mostly with `PHP`.
+Here, you'll find practical tips and tricks for overcoming challenges in the coding world.
 
-For questions, **quotes** or just **sharing** a thought, please use footer [email][coding-blog-email].
-
-Since 2022 I switched to also writing `Kotlin` and `Golang`, but I always think about this funny tweet:
+Since 2022, I've expanded my expertise to include `Kotlin` and `Golang`, and I often reflect on some humorous moments in programming, like this funny tweet I came across:
 
 ![Image]({{"/php-img-about.png", | relative_url }})
+
+Feel free to reach out via the [email][coding-blog-email] in the footer for questions, **quotes**, or just to **share** your thoughts.
+
+Happy coding!
 
 [coding-blog-link]: http://mbobby22.github.io
 [coding-blog-email]: mailto:abovethehills@proton.me
