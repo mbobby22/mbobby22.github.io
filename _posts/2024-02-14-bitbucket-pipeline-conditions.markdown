@@ -3,6 +3,7 @@ layout: post
 title:  "Bitbucket pipelines conditions"
 date:   2024-02-14 08:00:00 +0200
 categories: coding devops
+excerpt: "These options allow you to control the start conditions for your pipelines. Restricting your pipelines to start certain conditions (such as, only when a pull request is created or updated) can reduce the number of build minutes used by your team."
 ---
 
 So I started developing a personal project but I was getting too many builds being run, on every commit and every branch.

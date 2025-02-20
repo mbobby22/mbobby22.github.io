@@ -3,6 +3,7 @@ layout: post
 title:  "Code review checklist"
 date:   2020-05-22 13:30:00 +0200
 categories: coding review pull request
+excerpt: "If you work in a team, code review conflicts will surely happen at some point. Try preventing threads noise by following these tips."
 ---
 
 If you work in a team, opening a **Pull Request** (or **Merge Request**) will surely happen at some point.

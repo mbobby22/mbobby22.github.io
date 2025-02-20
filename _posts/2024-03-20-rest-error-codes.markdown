@@ -3,6 +3,7 @@ layout: post
 title:  "REST error codes"
 date:   2024-03-20 09:21:00 +0200
 categories: coding api rest
+excerpt: "HTTP specification defines these standard status codes divided into five categories that can be used to convey the results of a client’s request."
 ---
 
 I have always wondered what codes should I cover by my endpoints, since requirements are not always covering this.

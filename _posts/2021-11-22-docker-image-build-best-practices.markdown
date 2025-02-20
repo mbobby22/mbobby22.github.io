@@ -3,6 +3,7 @@ layout: post
 title:  "Docker build best practices"
 date:   2021-11-22 16:53:00 +0200
 categories: coding docker image build
+excerpt: "I noted down a few useful best practice tips, which might help you better setup and build faster your dev containers, such as lighter base image and decoupled applications."
 ---
 
 From [official docs][docker-docs]{:target="_blank" rel="noopener"} I noted a few useful best practice tips, which might help you better setup and build faster your dev containers.

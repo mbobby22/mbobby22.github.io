@@ -3,6 +3,7 @@ layout: post
 title:  "SRE, Chaos Engineering and Observability"
 date:   2021-11-22 16:30:00 +0200
 categories: coding sre chaos engineering observability
+excerpt: "There is no such thing as 100% reliability, but chaos experiments and the observability in those experiments help you understand why it is so and improve your customer’s confidence in your services."
 ---
 
 The practice of **Site Reliability**, more specifically, **Chaos Engineering**, has become more mainstream in recent times. From the engineering squads of *Netflix* and *Google* where the practice can trace its foundations, to `SRE engineers` in small retail websites, *‘reliability’* is an important measurement of success.

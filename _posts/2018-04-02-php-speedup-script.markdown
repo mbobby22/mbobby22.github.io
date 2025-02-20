@@ -3,6 +3,7 @@ layout: post
 title:  "PHP speedup script"
 date:   2018-04-02 19:50:00 +0200
 categories: coding php speedup
+excerpt: "Is there a way to speed up the execution of a PHP script? You can find here a few techniques."
 ---
 
 Here is some PHP script execution speed up techniques that actually make sense:

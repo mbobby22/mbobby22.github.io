@@ -3,6 +3,7 @@ layout: post
 title:  "Nodejs project template"
 date:   2024-02-10 18:58:00 +0200
 categories: coding typescript
+excerpt: "Simply run a new nodejs project using a simple project template skeleton as a starter."
 ---
 I needed to simply run a new `nodejs` project and I wanted a **simple project template skeleton** as a starter.
 

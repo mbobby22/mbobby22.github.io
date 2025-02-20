@@ -3,6 +3,7 @@ layout: post
 title:  "Javascript function check dropdown selection"
 date:   2018-04-02 20:30:00 +0200
 categories: coding javascript jquery select dropdown
+excerpt: "Function to check if value has already been selected in dropdown."
 ---
 
 Function to check if value has already been selected in dropdown, using `jQuery` features.

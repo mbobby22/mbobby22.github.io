@@ -3,6 +3,7 @@ layout: post
 title:  "Caching strategies"
 date:   2024-01-16 12:00:00 +0200
 categories: coding redis caching
+excerpt: "There are at least 3 major popular caching strategies for you to always consider: Lazy caching, Write-through, Time-to-live."
 ---
 
 There are at least 3 major popular caching strategies for you to consider, depending on the type of data that needs to be cached and the way we access it, as follows:

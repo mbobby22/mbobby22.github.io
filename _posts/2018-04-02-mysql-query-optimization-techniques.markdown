@@ -3,6 +3,7 @@ layout: post
 title:  "SQL query optimization techniques"
 date:   2018-04-02 20:00:00 +0200
 categories: coding mysql query optimization
+excerpt: "If you SQL query takes too long, here are a few tips to optimize it."
 ---
 
 SQL query takes too long. Few tips to optimize:

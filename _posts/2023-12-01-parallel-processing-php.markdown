@@ -3,6 +3,7 @@ layout: post
 title:  "Parallel processing with PHP"
 date:   2023-12-01 08:00:00 +0200
 categories: coding architecture
+excerpt: "Useful resources and links to make parallel processing with PHP work. You will need a special PHP zts build for this."
 ---
 
 After I became a **Go developer** my first initial thoughts were:

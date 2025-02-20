@@ -3,6 +3,7 @@ layout: post
 title:  "Load balancing setup: Nginx Haproxy Varnish"
 date:   2019-03-05 13:30:00 +0200
 categories: devops architecture load balancing nginx haproxy varnish
+excerpt: "With a round-robin scheme, each server is selected in turns according to order set. Least connections-based directs the requests to the server with least active connections."
 ---
 
 <h2>Load balancing methods</h2>
