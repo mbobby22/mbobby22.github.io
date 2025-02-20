@@ -3,6 +3,7 @@ layout: post
 title:  "PHP nested Exceptions setup"
 date:   2018-04-02 19:55:00 +0200
 categories: coding php exceptions
+excerpt: "Am I using exceptions the right way? Here is how to properly nest exceptions."
 ---
 
 {% highlight php %}

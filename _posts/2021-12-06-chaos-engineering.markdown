@@ -3,6 +3,7 @@ layout: post
 title:  "Chaos Engineering"
 date:   2021-12-06 12:30:00 +0200
 categories: coding chaos engineering
+excerpt: "I found some meaningful insights on this new field, born from wide adoption of minitoring and logging tools."
 ---
 
 <i>Digging more, based on this previous article [here][blog-link], I found some meaningful insights on this new field, born from wide adoption of minitoring and logging tools.</i>

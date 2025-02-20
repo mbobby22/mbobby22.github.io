@@ -3,6 +3,7 @@ layout: post
 title:  "Golang project template"
 date:   2024-03-05 16:00:00 +0200
 categories: coding golang
+excerpt: "Simply run a new golang project using a simple go project template skeleton as a starter."
 ---
 I needed to simply run a new `golang` project and I wanted a **simple go project template skeleton** as a starter.
 

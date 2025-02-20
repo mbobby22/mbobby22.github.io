@@ -3,6 +3,7 @@ layout: post
 title:  "Design patterns with PHP"
 date:   2024-03-01 13:00:00 +0200
 categories: coding php
+excerpt: "If you want to learn about design patterns with PHP examples or just want to refresh the topic, here you can find the link you need."
 ---
 If you want to learn about design patterns with PHP examples or just want to refresh the topic, here you can find the link you need.
 

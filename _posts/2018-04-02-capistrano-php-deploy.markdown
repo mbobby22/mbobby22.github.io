@@ -3,6 +3,7 @@ layout: post
 title:  "Automate PHP deploy with Capistrano"
 date:   2018-04-02 20:30:00 +0200
 categories: coding javascript jquery select dropdown
+excerpt: "Using Capistrano, arbitrary functions and procedures can be performed on virtual servers without direct interference by having Capistrano execute a script with all the instructions listed."
 ---
 
 Capistrano is a Ruby programming language based, open-source server (or deployment) management tool. Using Capistrano, arbitrary functions and procedures can be performed on virtual servers without direct interference by having Capistrano execute a script (i.e. a recipe) with all the instructions listed. In a general sense, this tool can be considered a developer’s very own [deployment assistant][capistrano-tips]{:target="_blank" rel="noopener"}, helping with almost anything from [getting the code on the remote machine][capistrano-php]{:target="_blank" rel="noopener"} to bootstrapping the entire getting-online process.

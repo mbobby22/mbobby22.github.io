@@ -3,6 +3,7 @@ layout: post
 title:  "Shape Up over Agile"
 date:   2022-05-01 12:00:00 +0200
 categories: coding shapeup agile
+excerpt: "After over 5 years of working with Agile in different teams and across many companies, I would say that Agile is dead."
 ---
 
 After over 5 years of working with Agile in different teams and across many companies, I would say that `Agile is dead`.

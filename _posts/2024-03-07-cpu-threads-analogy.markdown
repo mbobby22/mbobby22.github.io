@@ -3,6 +3,12 @@ layout: post
 title:  "CPU Threads"
 date:   2024-03-07 20:00:00 +0200
 categories: coding architecture
+excerpt: "I run a hotel, where guests are switched between rooms.
+I can host hundreds of guests in parallel. 
+One guest leaves a room, another enters it.
+If the rooms are full, guests wait in the lobby, but I quickly switch them, so every guest gets time in a room.
+I don't get then why I have a room limit on my hotel building.
+I mean I fastly switch guests between rooms then why does my building have 8 rooms/16 beds?"
 ---
 
 I found a very good analogy to explain what **CPU threads** are and how they work and I will be sharing this with you.

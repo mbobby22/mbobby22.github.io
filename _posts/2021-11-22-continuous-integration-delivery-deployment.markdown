@@ -3,6 +3,7 @@ layout: post
 title:  "CI/CD integration vs delivery"
 date:   2021-11-22 16:55:00 +0200
 categories: coding ci cd
+excerpt: "Developers practicing continuous integration merge their changes back to the main branch as often as possible. Continuous delivery is an extension of continuous integration as it automatically deploys code to staging. Continuous deployment goes one step further and automatically releases directly to your customers."
 ---
 
 <h3>Continuous integration</h3>

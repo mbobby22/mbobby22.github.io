@@ -32,6 +32,7 @@ donations:
   paypal:
     text: Donate  # Button alt text
     id: W62FGQUQV9MJS  # PayPal button ID
+show_excerpts: true
 
 # Build settings
 theme: minima
