@@ -37,6 +37,10 @@ services:
     # ...
 {% endhighlight %}
 
+If the `services.yaml` file has `autowire: true` in the _defaults section so that it applies to all services defined in that file. With this setting, you're able to type-hint arguments in the `__construct()` method of your services and the container will automatically pass you the correct arguments.
+
+When the `services.yaml` file has `autoconfigure: true` in the `_defaults` section so that it applies to all services defined in that file. With this setting, the container will automatically apply certain configuration to your services, based on your service's class. This is mostly used to `auto-tag` your services.
+
 More: [here][autowire-link]{:target="_blank" rel="noopener"}
 
 <h3>Tags</h3>
@@ -57,6 +61,34 @@ services:
         App\Security\CustomInterface:
             tags: ['app.custom_tag']
     # ...
+{% endhighlight %}
+
+If you define services using the YAML config format, the PHP namespace is used as the key of each configuration, so you can't define different service configs for classes under the same namespace.
+
+In order to have multiple definitions, add the namespace option and use any unique string as the key of each service config:
+
+{% highlight yaml %}
+# config/services.yaml
+services:
+    command_handlers:
+        namespace: App\Domain\
+        resource: '../src/Domain/*/CommandHandler'
+        tags: [command_handler]
+
+    event_subscribers:
+        namespace: App\Domain\
+        resource: '../src/Domain/*/EventSubscriber'
+        tags: [event_subscriber]
+{% endhighlight %}
+
+The tagged services can be prioritized using the `priority` attribute. The priority is a positive or negative integer that defaults to `0`. The higher the number, the earlier the tagged service will be located in the collection:
+
+{% highlight yaml %}
+# config/services.yaml
+services:
+    App\Handler\One:
+        tags:
+            - { name: 'app.handler', priority: 20 }
 {% endhighlight %}
 
 More: [here][tags-link]{:target="_blank" rel="noopener"}
