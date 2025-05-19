@@ -24,8 +24,9 @@ If not (a cache miss), then the database is queried for the object. The cache is
 
 <strong>Updated in real time when the database is updated:</strong>
 
-If a user updates his or her profile, the updated profile is also pushed into the cache
-Typically updated by a specific piece of application or background job code
+If a user updates his or her profile, the updated profile is also pushed into the cache.
+
+It is typically updated by a specific piece of application or background job code.
 
 *Example*: any type of aggregate, such as a top 100 game leaderboard, or the top 10 most popular news stories, or even recommendations
 
@@ -59,7 +60,7 @@ While Russian Doll Caching can significantly improve the performance of a Rails 
 
 <h4>Debugging difficulties</h4>
 
-<h4>Cache stampedes</h4>
+<h4>Cache stampede</h4>
 
 Fragment caching is most beneficial when used in scenarios where rendering parts of a view is expensive in terms of time or resources. Some optimal times to use fragment caching include:
 

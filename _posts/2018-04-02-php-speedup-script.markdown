@@ -15,7 +15,7 @@ Here is some PHP script execution speed up techniques that actually make sense:
 - `unset` vars to clear memory (especially when using **arrays**)
 - Use **full paths** in includes and requires, so the server doesn’t have to resolve the paths for you
 - Use `strncasecmp`, `strpbrk` and `stripos` in stead of **regex**
-- It’s better to use a **select statement** then multiple `if statements` with multiple `else statements`
+- It’s better to use a **switch or match statement** then multiple `if statements` with multiple `else statements`
 - Suppress **errors** with an `@` is very slow!
 - Close database connections when you don’t need them anymore. `$row[‘id’]` is 7 times faster as `$row[id]`
 - Incrementing a `global` var is 2 times slower as a **local** var

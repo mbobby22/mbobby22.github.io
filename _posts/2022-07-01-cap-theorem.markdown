@@ -60,7 +60,7 @@ NoSQL database systems meet either `CP` or `AP`.
 - System is a peer-to-peer architecture, with multiple nodes that accept `Read` and `Write` operations.
 - Multiple replicas live in separate nodes and there is **no Primary** node.
 - Uses a `replication factor` of three: 3 nodes get updated in a clockwise manner.
-- Partitioning: there will be nodes avilable with old data.
+- Partitioning: there will be nodes available with old data.
 - Old data will get updated eventually.
 - The system allows divergent versions of the same data, therefore Cassandra will compromise `Consistency`.
 
