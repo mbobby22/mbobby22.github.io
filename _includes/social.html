@@ -1,0 +1,24 @@
+<ul class="social-media-list">
+  {% if site.twitter_username %}
+    <li>
+      <a href="https://twitter.com/{{ site.twitter_username | cgi_escape | escape }}" target="_blank" rel="noopener noreferrer">
+        <svg class="svg-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.153h7.594l5.243 6.932zm-1.293 19.49h2.039L6.486 3.24H4.298z"/>
+        </svg>
+        <span>Find me on X</span>
+      </a>
+    </li>
+  {% endif %}
+  {% if site.instagram_username %}
+    <li>
+      <a href="https://www.instagram.com/{{ site.instagram_username | cgi_escape | escape }}/" target="_blank" rel="noopener noreferrer">
+        <svg class="svg-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="18" cy="6" r="1.2"/>
+        </svg>
+        <span>Find me on Instagram</span>
+      </a>
+    </li>
+  {% endif %}
+</ul>
